@@ -175,12 +175,12 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-brand {
-    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,Cursive;
     color: #fed136;
 }
 
 .navbar-default .company-tag {
-    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,Cursive;
     color: #fed136;
 }
 
@@ -270,7 +270,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url(../img/header-bg.jpg);
+    background-image: url(../img/landing-bg-1.jpg);
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -738,6 +738,7 @@ footer span.copyright {
     text-transform: none;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     line-height: 40px;
+    color: white;
 }
 
 footer ul.quicklinks {
@@ -789,15 +790,23 @@ ul.social-buttons li a:active {
     background-clip: border-box;
     -webkit-box-shadow: none;
     box-shadow: none;
+    background-image: url(../img/coco-mod.jpg) ;
+    background-size: 1950px;
+    /* z-index: -999; */
+    /* opacity: 0.5; */
+   
 }
-
 .portfolio-modal .modal-content h2 {
     margin-bottom: 15px;
     font-size: 3em;
+    color: white;
 }
 
 .portfolio-modal .modal-content p {
     margin-bottom: 30px;
+    color: white;
+    font-size: 16px;
+    background-color: black;
 }
 
 .portfolio-modal .modal-content p.item-intro {
@@ -810,10 +819,18 @@ ul.social-buttons li a:active {
 .portfolio-modal .modal-content ul.list-inline {
     margin-top: 0;
     margin-bottom: 30px;
+    color: white;
 }
 
 .portfolio-modal .modal-content img {
     margin-bottom: 30px;
+}
+
+li {
+    text-align:left;
+    padding-left:25px;
+    color:white;
+    background-color: black;
 }
 
 .portfolio-modal .close-modal {
@@ -822,7 +839,7 @@ ul.social-buttons li a:active {
     right: 25px;
     width: 75px;
     height: 75px;
-    background-color: transparent;
+    background-color: white;
     cursor: pointer;
 }
 
@@ -876,4 +893,10 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: #fed136;
+}
+
+.contact-info {
+    /* background-color:white; */
+    color:white;
+
 }
